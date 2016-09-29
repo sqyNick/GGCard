@@ -42,6 +42,11 @@ public class GGCard extends View {
 		mPaint.setStrokeCap(Paint.Cap.ROUND); // 圆角
 		mPaint.setColor(Color.RED);
 		mPaint.setStrokeWidth(10);
+		TypedArray array=context.obtainStyledAttributes(attrs, R.styleable.GGCard);
+		BitmapDrawable drawable =(BitmapDrawable) array.getDrawable(R.styleable.GGCard_bg_pic);
+		if(drawable != null){
+			BackgroundBitmap =  drawable.getBitmap();
+		}
 	}
 	public void setPaintStrokeWidth(int strokeWidth){
 		mPaint.setStrokeWidth(strokeWidth);
