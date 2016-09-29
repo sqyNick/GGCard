@@ -19,10 +19,10 @@ allprojects {
  
  	1.xml:
 	tabtab <com.example.androidstepdemo.view.GGCard
-        tabtab android:layout_width="match_parent"
-        tabtab android:layout_height="300dp"
-        tabtab android:id="@+id/ggcard"
-        tabtab  />
+         android:layout_width="match_parent"
+         android:layout_height="300dp"
+         android:id="@+id/ggcard"
+          />
 	2.java
 	GGCard gg = (GGCard) findViewById(R.id.ggcard);
 	//set the background-image of the GGCard
