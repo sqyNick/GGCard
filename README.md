@@ -15,17 +15,17 @@ allprojects {
 Step 2:
  add 'compile 'com.github.sqyNick:GGCard:v1.0.0' in your app build.gradle
  ```java 
- compile 'com.github.sqyNick:GGCard:v1.0.0 
- ```
- After doing tha ,you can use GGCard as follow:
- 	```java
+ compile 'com.github.sqyNick:GGCard:v1.0.0' 
+```java
+ After doing that,you can use GGCard as follow:
+        1.xml
+	```java
 	<com.example.androidstepdemo.view.GGCard
-         android:layout_width="match_parent"
-         android:layout_height="300dp"
-         android:id="@+id/ggcard"
-          />
-	  ```
-	  
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/ggcard"
+         />
+	 ```
 	2.java
 	```java
 	GGCard gg = (GGCard) findViewById(R.id.ggcard);
@@ -34,7 +34,6 @@ Step 2:
 	//set the width of the paint
         gg.setPaintStrokeWidth(20);
 	```
-	
 		
 After all of that ,you will see :<br>
 ![github](https://github.com/sqyNick/GGCard/blob/master/android_ggcard.gif)
