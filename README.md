@@ -19,21 +19,21 @@ Step 2:
 ```
  After doing that,you can use GGCard as follow:
         1.xml
-	```java
+```java
 	<com.example.androidstepdemo.view.GGCard
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:id="@+id/ggcard"
          />
-	 ```
+```
 	2.java
-	```java
+```java
 	GGCard gg = (GGCard) findViewById(R.id.ggcard);
 	//set the background-image of the GGCard
         gg.setBackgroundPicture(BitmapFactory.decodeResource(getResources(),R.mipmap.ic_launcher)); 
 	//set the width of the paint
         gg.setPaintStrokeWidth(20);
-	```
+```
 		
 After all of that ,you will see :<br>
 ![github](https://github.com/sqyNick/GGCard/blob/master/android_ggcard.gif)
