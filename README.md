@@ -4,33 +4,38 @@ the project is the first one that I try to publish in Github. All I want to do i
 ----------------------------------------------------------------------------------------------------------------------------------------
 +Step 1:
  add  'maven { url "https://jitpack.io" }' as follow in your root project build.gradle
- 
-allprojects {<br>
-    repositories {<br>
-        jcenter()<br>
-        maven { url "https://jitpack.io" }<br>
-    }<br>
+```java
+allprojects {
+        repositories { 
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
 }
-
+```
 +Step 2:
  add 'compile 'com.github.sqyNick:GGCard:v1.0.0' in your app build.gradle
- 
+ ```java 
+ compile 'com.github.sqyNick:GGCard:v1.0.0 
+ ```
  After doing tha ,you can use GGCard as follow:
- 
  	1.xml:
-	tabtab <com.example.androidstepdemo.view.GGCard
+	```java
+	 <com.example.androidstepdemo.view.GGCard
          android:layout_width="match_parent"
          android:layout_height="300dp"
          android:id="@+id/ggcard"
           />
+	  ```
 	2.java
+	```java
 	GGCard gg = (GGCard) findViewById(R.id.ggcard);
 	//set the background-image of the GGCard
         gg.setBackgroundPicture(BitmapFactory.decodeResource(getResources(),R.mipmap.ic_launcher)); 
 	//set the width of the paint
         gg.setPaintStrokeWidth(20);
+	```
 		
-After all of that ,you will see :
+After all of that ,you will see :<br>
 ![github](https://github.com/sqyNick/GGCard/blob/master/android_ggcard.gif)
 
  
