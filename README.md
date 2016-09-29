@@ -17,7 +17,7 @@ Step 2:
  ```java 
  compile 'com.github.sqyNick:GGCard:v1.0.0' 
 ```
- After doing that,you can use GGCard as follow:
+ After doing that,you can use GGCard as follow:<br>
         1.xml
 ```java
 	<com.example.androidstepdemo.view.GGCard
@@ -30,9 +30,9 @@ Step 2:
 ```java
 	GGCard gg = (GGCard) findViewById(R.id.ggcard);
 	//set the background-image of the GGCard
-        gg.setBackgroundPicture(BitmapFactory.decodeResource(getResources(),R.mipmap.ic_launcher)); 
+	gg.setBackgroundPicture(BitmapFactory.decodeResource(getResources(),R.mipmap.ic_launcher)); 
 	//set the width of the paint
-        gg.setPaintStrokeWidth(20);
+	gg.setPaintStrokeWidth(20);
 ```
 		
 After all of that ,you will see :<br>
