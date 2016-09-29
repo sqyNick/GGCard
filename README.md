@@ -5,11 +5,11 @@ the project is the first one that I try to publish in Github. All I want to do i
 +Step 1:
  add  'maven { url "https://jitpack.io" }' as follow in your root project build.gradle
  
-allprojects {
-    repositories {
-        jcenter()
-        maven { url "https://jitpack.io" }
-    }
+allprojects {\<br>
+    repositories {\<br>
+        jcenter()\<br>
+        maven { url "https://jitpack.io" }\<br>
+    }\<br>
 }
 
 +Step 2:
