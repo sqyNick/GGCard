@@ -1,6 +1,5 @@
-the project is the first one that I try to publish in Github. All I want to do is Just to test the use of JitPack. Finally,the truth told me
-that the JitPack is such a good tool.Next I will show you a simple example that I did.
--------------------------------------------------------------------------------------------------------------------------------------------
+the project is the first one that I try to publish in Github. All I want to do is Just to test the use of JitPack. Finally,the truth told me that the JitPack is such a good tool.Next I will show you a simple example that I did.
+----------------------------------------------------------------------------------------------------------------------------------------
 Step 1:
  add  'maven { url "https://jitpack.io" }' as follow in your root project build.gradle
  
