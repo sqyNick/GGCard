@@ -29,6 +29,7 @@ Step 2:
         gg.setPaintStrokeWidth(20);
 		
 After all of that ,you will see :
+![image](https://github.com/sqyNick/GGCard/blob/master/android_ggcard.gif)
 
  
 
