@@ -1,4 +1,4 @@
-package com.example.androidstepdemo.view;
+package com.sqy.cn.ggcard;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
