@@ -20,11 +20,11 @@ Step 2:
  After doing that,you can use GGCard as follow:<br>
         1.xml
 ```java
-	<com.example.androidstepdemo.view.GGCard
+	<com.sqy.cn.ggcard.GGCard
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:id="@+id/ggcard"
-         />
+        app:bg_pic="@mipmap/ic_launcher"
+        android:id="@+id/ggcard" />
 ```
 	2.java
 ```java
