@@ -15,7 +15,7 @@ allprojects {
 Step 2:
  add 'compile 'com.github.sqyNick:GGCard:v1.0.0' in your app build.gradle
  ```java 
- compile 'com.github.sqyNick:GGCard:v1.0.0' 
+ compile 'com.github.sqyNick:GGCard:v1.0.3' 
 ```
  After doing that,you can use GGCard as follow:<br>
         1.xml
