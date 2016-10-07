@@ -29,7 +29,7 @@ Step 2:
 	2.java
 ```java
 	GGCard gg = (GGCard) findViewById(R.id.ggcard);
-	//set the background-image of the GGCard
+	//set the background-image of the GGCard , if you are not set the bg_pic in the XML
 	gg.setBackgroundPicture(BitmapFactory.decodeResource(getResources(),R.mipmap.ic_launcher)); 
 	//set the width of the paint
 	gg.setPaintStrokeWidth(20);
